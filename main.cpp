@@ -43,17 +43,11 @@ int main(int argc, char const *argv[])
 
 	MC monteCarlo(strike, atof(argv[1]));
 
+	cout << "MC estimator" << endl;
 	monteCarlo.printResults();
+
+	cout << endl << "Antithetic method" << endl;
 	monteCarlo.printAntithetic();
-
-/*	cout << monteCarlo.getNumberSimulations() << endl;
-	vector<double> original = monteCarlo();
-	cout << original[1] << endl;
-
-	cout << monteCarlo.getNumberSimulationsAntithetic() << endl;
-	vector<double> anti = monteCarlo.antithetic();
-	cout << anti[1] << endl;
-*/	// monteCarlo.printResults();
 
 	return 0;
 }
