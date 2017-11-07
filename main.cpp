@@ -11,24 +11,7 @@ using namespace arma;
 
 int main(int argc, char const *argv[])
 {
-
-/*	Price p;
-	clock_t begin = clock();
-	for(int i(0);i<100000;i++) {
-		p();
-	}
-	cout << double(clock() - begin) / CLOCKS_PER_SEC << endl;
-
-	begin = clock();
-	for(int i(0);i<100000;i++) {
-		p.antithetic();
-	}
-	cout << double(clock() - begin) / CLOCKS_PER_SEC << endl;
-*/
-
-/*	Price p;
-	cout << p.antithetic() << endl;
-*/
+	
 	if(argc!=2) {
 		cout << "Error: usage is ./main <precision>" << endl;
 		return 1;
