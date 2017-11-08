@@ -1,4 +1,4 @@
-# Option Basket pricing  :chart_with_upwards_trend:
+# Option Basket pricing
 
 This program enables you to price an option basket, *i.e.* an option on an index. It uses a 
 classic Monte Carlo estimator and the antithetic method.
